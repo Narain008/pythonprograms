@@ -29,7 +29,12 @@ while True:
      print(b-c)
     elif a=="*":
      print(b*c)
-    elif a=="/":
-     print(b/c)
+    elif a=="/": 
+      print(b/c)
     else:
      print("invalid")
+    # if ZeroDivisionError:
+    #  print("Error: Cannot divide by zero!")
+    # else:
+    #  print(b/c)
+     
